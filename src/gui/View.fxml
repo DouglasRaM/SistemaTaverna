@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewControle">
+   <children>
+      <AnchorPane layoutY="-8.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="reservaQuarto" layoutX="389.0" layoutY="272.0" mnemonicParsing="false" onAction="#onReservaQuartoAction" prefHeight="25.0" prefWidth="130.0" text="Submeter texto" AnchorPane.bottomAnchor="106.0" AnchorPane.leftAnchor="389.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="272.0" />
+            <Label layoutX="165.0" layoutY="14.0" text="Textos Motivacionais" AnchorPane.bottomAnchor="348.0" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="164.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtCaixa1" layoutX="41.0" layoutY="270.0" prefHeight="29.0" prefWidth="334.0" promptText="Crie o seu" text="ayo nova" AnchorPane.bottomAnchor="104.0" AnchorPane.leftAnchor="41.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="270.0" />
+            <TextArea fx:id="mensagem" layoutX="29.0" layoutY="55.0" prefHeight="200.0" prefWidth="541.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
